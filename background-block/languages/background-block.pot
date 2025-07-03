@@ -1,0 +1,230 @@
+# Copyright (C) 2025 Plugin Envision
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Section Builder with Backgrounds 0.17\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/background-block\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-19T02:18:15+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: background-block\n"
+
+#. Plugin Name of the plugin
+msgid "Section Builder with Backgrounds"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://pluginenvision.com/plugins/background-block"
+msgstr ""
+
+#. Description of the plugin
+msgid "Customize your WordPress section easily! Choose backgrounds with color, gradient, image. Add parallax effects, and more for a stunning layout."
+msgstr ""
+
+#. Author of the plugin
+msgid "Plugin Envision"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pluginenvision.com"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Color"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Gradient"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Image"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Initial"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Scroll"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Fixed"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Local"
+msgstr ""
+
+#: build/editor.js:1
+msgid "No Repeat"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Repeat"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Repeat X"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Repeat Y"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Cover"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Auto"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Contain"
+msgstr ""
+
+#: build/editor.js:1
+msgid "None"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Parallax"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Left"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Center"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Right"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Background"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Type"
+msgstr ""
+
+#: build/editor.js:1
+msgid "URL:"
+msgstr ""
+
+#: build/editor.js:1
+msgid "For overlay color, set content background."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Section / Wrapper"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Min Height:"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Scroll Animation"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Scroll animation will not work in editor."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Speed"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Content"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Max Width"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Vertical Align"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Text Align"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Padding"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Border Radius"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Content / Overlay Background"
+msgstr ""
+
+#: build/block.json
+msgctxt "block title"
+msgid "Section Backgrounds"
+msgstr ""
+
+#: build/block.json
+msgctxt "block description"
+msgid "Enhance Your Website's Aesthetics with the Background Block"
+msgstr ""
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "parallax section backgrounds"
+msgstr ""
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "color gradient or image background"
+msgstr ""
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "content background builder"
+msgstr ""
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "content section builder"
+msgstr ""
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "section customizer"
+msgstr ""
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "custom backgrounds"
+msgstr ""
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "website design tool"
+msgstr ""
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "section designer"
+msgstr ""
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "parallax scroll"
+msgstr ""

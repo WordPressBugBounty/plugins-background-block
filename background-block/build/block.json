@@ -1,0 +1,170 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "evb/background",
+  "title": "Section Backgrounds",
+  "description": "Enhance Your Website's Aesthetics with the Background Block",
+  "version": "0.17",
+  "category": "widgets",
+  "keywords": [
+    "parallax section backgrounds",
+    "color gradient or image background",
+    "content background builder",
+    "content section builder",
+    "section customizer",
+    "custom backgrounds",
+    "website design tool",
+    "section designer",
+    "parallax scroll"
+  ],
+  "textdomain": "background-block",
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": "full"
+    },
+    "layout": {
+      "type": "object",
+      "default": {
+        "type": "constrained"
+      }
+    },
+    "background": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "type": "color",
+          "color": "#5465ff",
+          "gradient": "linear-gradient(135deg, #5465ff, #788bff)",
+          "image": {
+            "url": "",
+            "position": "center center",
+            "attachment": "initial",
+            "repeat": "no-repeat",
+            "size": "cover"
+          }
+        }
+      }
+    },
+    "wrapper": {
+      "type": "object",
+      "default": {
+        "minHeight": "700px",
+        "padding": {
+          "desktop": {
+            "top": "0px",
+            "right": "0px",
+            "bottom": "0px",
+            "left": "0px"
+          },
+          "tablet": {
+            "top": "0px",
+            "right": "0px",
+            "bottom": "0px",
+            "left": "0px"
+          },
+          "mobile": {
+            "top": "0px",
+            "right": "0px",
+            "bottom": "0px",
+            "left": "0px"
+          }
+        },
+        "border": [],
+        "radius": "",
+        "shadow": "",
+        "animation": {
+          "type": "none",
+          "parallax": {
+            "isReverse": false,
+            "speed": 1
+          },
+          "zoom": {
+            "origin": "center center",
+            "amount": 0.5
+          }
+        }
+      }
+    },
+    "shape": {
+      "type": "object",
+      "default": {
+        "top": {
+          "type": "",
+          "svg": "",
+          "width": "100%",
+          "height": "150px",
+          "color": "#fff",
+          "flip": false,
+          "invert": false
+        },
+        "bottom": {
+          "type": "",
+          "svg": "",
+          "width": "100%",
+          "height": "150px",
+          "color": "#fff",
+          "flip": false,
+          "invert": false
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "default": {
+        "maxWidth": {
+          "desktop": "100%",
+          "tablet": "100%",
+          "mobile": "100%"
+        },
+        "background": "background-color: #0000;",
+        "align": {
+          "vertical": "center",
+          "horizontal": "center",
+          "text": "center"
+        },
+        "padding": {
+          "desktop": {
+            "top": "25px",
+            "right": "40px",
+            "bottom": "25px",
+            "left": "40px"
+          },
+          "tablet": {
+            "top": "20px",
+            "right": "30px",
+            "bottom": "20px",
+            "left": "30px"
+          },
+          "mobile": {
+            "top": "15px",
+            "right": "20px",
+            "bottom": "15px",
+            "left": "20px"
+          }
+        },
+        "border": [],
+        "radius": "",
+        "shadow": ""
+      }
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false,
+    "layout": {
+      "allowSizingOnChildren": true
+    }
+  },
+  "example": {
+    "attributes": {}
+  },
+  "editorScript": "file:./editor.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./view.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}
