@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/pluginenvision
 Tags: block, section customization, parallax section backgrounds, color gradient or image background, background effects
 Requires at least: 6.5+
 Tested up to: 6.8.1
-Stable tag: 0.17
+Stable tag: 0.18
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -93,6 +93,9 @@ At the moment, there is no premium version available.
 
 == Changelog ==
 
+= 0.18 - 8th August 25 =
+* Fix issues
+
 = 0.17 - 19th May 25 =
 * Improve tab design inside the PanelBody.
 
@@ -112,7 +115,7 @@ At the moment, there is no premium version available.
 * Add shadow for the content and wrapper.
 
 = 0.11 - 5th November 24 =
-* Fix inner blocks align.
+* Fix inner blocks alignment.
 
 = 0.10 - 4th October 24 =
 * Add border and radius to wrapper and content.
