@@ -94,7 +94,7 @@ At the moment, there is no premium version available.
 == Changelog ==
 
 = 0.18 - 8th August 25 =
-* Fix issues
+* Fix issues.
 
 = 0.17 - 19th May 25 =
 * Improve tab design inside the PanelBody.
