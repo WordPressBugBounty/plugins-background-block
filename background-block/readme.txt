@@ -1,15 +1,15 @@
-=== Section Builder with Backgrounds - Customize with Color, Gradient, Image & Parallax. ===
+=== Section Builder with Backgrounds - Customize with Color, Gradient, Image and Parallax. ===
 Contributors: pluginenvision
 Donate link: https://www.buymeacoffee.com/pluginenvision
 Tags: block, section customization, parallax section backgrounds, color gradient or image background, background effects
 Requires at least: 6.5+
-Tested up to: 6.8.1
+Tested up to: 6.9
 Stable tag: 0.18
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Easily customize your WordPress sections with color, gradient, or image backgrounds. Add stunning background effects and more.
+Easily customize your WordPress sections with solid colors, gradients, or image backgrounds. Add stunning parallax effects and more.
 
 == Description ==
 
@@ -17,7 +17,7 @@ Easily customize your WordPress sections with color, gradient, or image backgrou
 
 Introducing the Section Background Block – the ultimate solution for section customization with backgrounds in WordPress. Effortlessly design your website sections with solid colors, smooth gradients, and eye-catching image backgrounds. Enhance your designs with captivating parallax section backgrounds that add depth and visual appeal.
 
-This block offers precise controls for content section builder features like minimum height settings, spacing adjustments, and optimized layout designs. Whether you're a beginner or an experienced developer, the Section Background Block ensures seamless integration and a user-friendly experience.
+This block offers precise controls for section-building features like minimum height settings, spacing adjustments, and optimized layout designs. Whether you're a beginner or an experienced developer, the Section Background Block ensures seamless integration and a user-friendly experience.
 
 Take your WordPress design to the next level with stunning color gradient or image backgrounds and customizable parallax effects. Create professional and engaging website sections effortlessly!
 
@@ -27,7 +27,7 @@ Start building visually appealing sections today with the Section Background Blo
 
 
 ### Section Builder with Backgrounds Features
-👉 **Background**: Choose from various background types – solid color, gradient, or image – to customize your WordPress sections.
+👉 **Background**: Select from various background types – solid color, gradient, or image – to customize your WordPress sections.
 
 👉 **Parallax Effects**: Create captivating depth with parallax backgrounds.
 
@@ -100,10 +100,10 @@ At the moment, there is no premium version available.
 * Improve tab design inside the PanelBody.
 
 = 0.16 - 3rd March 25 =
-* Improve visibility on search
+* Improve visibility on search.
 
 = 0.15 - 23th February 25 =
-* Optimize.
+* Optimize the plugin.
 
 = 0.14 - 28th January 25 =
 * Extra support for SVG in content.
