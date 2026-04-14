@@ -1,10 +1,10 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
-  "apiVersion": 2,
+  "apiVersion": 3,
   "name": "evb/background",
   "title": "Section Backgrounds",
   "description": "Enhance Your Website's Aesthetics with the Background Block",
-  "version": "0.18",
+  "version": "0.19",
   "category": "widgets",
   "keywords": [
     "parallax section backgrounds",
@@ -34,8 +34,8 @@
       "default": {
         "desktop": {
           "type": "color",
-          "color": "#5465ff",
-          "gradient": "linear-gradient(135deg, #5465ff, #788bff)",
+          "color": "#1d0bbd",
+          "gradient": "linear-gradient(135deg, #1d0bbd, #5b4fff)",
           "image": {
             "url": "",
             "position": "center center",

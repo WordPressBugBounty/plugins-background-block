@@ -1,21 +1,21 @@
 <?php
 $innerContent = $content;
 
-if( !function_exists( 'evbbGetBoxValues' ) ){
+if( !function_exists( 'evbbGetBoxValues' ) ) {
 	function evbbGetBoxValues( $val ) {
 		return implode( ' ', array_values( $val ) );
 	}
 }
 
-if( !function_exists( 'borderCSS' ) ){
-	function borderCSS($value = ['0px solid #0000']) {
-		if (count($value) === 0) {
+if( !function_exists( 'borderCSS' ) ) {
+	function borderCSS( $value = ['0px solid #0000'] ) {
+		if ( count( $value ) === 0 ) {
 			return '';
 		}
 	
 		$top = $value[0];
 	
-		if (count($value) >= 4) {
+		if ( count( $value ) >= 4 ) {
 			$right = $value[1];
 			$bottom = $value[2];
 			$left = $value[3];
@@ -26,9 +26,9 @@ if( !function_exists( 'borderCSS' ) ){
 	}
 }
 
-if( !function_exists( 'evbbDeviceCSS' ) ){
+if( !function_exists( 'evbbDeviceCSS' ) ) {
 	function evbbDeviceCSS( $id, $attributes, $device ) {
-		extract( $attributes );
+		extract( $attributes ?? [] );
 
 		$wPadding = evbbGetBoxValues( $wrapper['padding'][$device] ?? [] );
 		$cMaxW = $content['maxWidth'][$device] ?? '100%';
@@ -46,9 +46,9 @@ if( !function_exists( 'evbbDeviceCSS' ) ){
 	}
 }
 
-if( !function_exists( 'evbbStyle' ) ){
+if( !function_exists( 'evbbStyle' ) ) {
 	function evbbStyle( $attributes, $id ) {
-		extract( $attributes );
+		extract( $attributes ?? [] );
 		extract( $background['desktop'] ?? [] );
 
 		$plxSpeed = $wrapper['animation']['parallax']['speed'] ?? 1;
@@ -81,8 +81,8 @@ if( !function_exists( 'evbbStyle' ) ){
 		$cRadius = $content['radius'] ?? '0px';
 		$cShadow = !empty( $content['shadow'] ) ? 'box-shadow: '. $content['shadow'] .';' : '';
 
-		$bgStyles = 'image' === $type ? "url($url)" :
-			('gradient' === $type ? $gradient : $color);
+		$bgStyles = 'image' === $type ? "url( $url )" :
+			( 'gradient' === $type ? $gradient : $color );
 
 		$bgImgStyles = 'image' === $type ? "
 			background-position: $position;
@@ -97,7 +97,7 @@ if( !function_exists( 'evbbStyle' ) ){
 			border-radius: $wrapRadius;
 			$wrapShadow
 		}
-		$mainSl.scroll-parallax .evbBackground{
+		$mainSl.scroll-parallax .evbBackground {
 			height: calc( 100% + ( 100% * $plxSpeed ) );
 		}
 		$backgroundSl {
@@ -105,7 +105,7 @@ if( !function_exists( 'evbbStyle' ) ){
 			$bgImgStyles
 		}
 
-		$contentWrapperSl{
+		$contentWrapperSl {
 			align-items: $cVAlign;
 			justify-content: $cHAlign;
 		}
@@ -118,9 +118,9 @@ if( !function_exists( 'evbbStyle' ) ){
 		}
 		". evbbDeviceCSS( $id, $attributes, 'desktop' ) ."
 
-		@media (min-width: 481px) and (max-width: 960px) {". evbbDeviceCSS( $id, $attributes, 'tablet' ) ."}
+		@media ( max-width: 1023px ) {". evbbDeviceCSS( $id, $attributes, 'tablet' ) ."}
 
-		@media (max-width: 480px) {". evbbDeviceCSS( $id, $attributes, 'mobile' ) ."}";
+		@media ( max-width: 767px ) {". evbbDeviceCSS( $id, $attributes, 'mobile' ) ."}";
 
 		ob_start(); ?>
 		<style><?php echo esc_html( wp_strip_all_tags( $styles ) ); ?></style>
@@ -129,7 +129,7 @@ if( !function_exists( 'evbbStyle' ) ){
 }
 
 $id = wp_unique_id( 'evbBackground-' );
-extract( $attributes );
+extract( $attributes ?? [] );
 
 $aniType = $wrapper['animation']['type'] ?? 'none';
 
@@ -158,7 +158,7 @@ $allowedHTML = wp_parse_args( [
 ], $allowedposttags );
 ?>
 <div
-	<?php echo get_block_wrapper_attributes([ 'class' => "align$align scroll-$aniType" ]); ?>
+	<?php echo get_block_wrapper_attributes( [ 'class' => "align$align scroll-$aniType" ] ); ?>
 	id='<?php echo esc_attr( $id ); ?>'
 	data-attributes='<?php echo esc_attr( wp_json_encode( $attributes ) ); ?>'
 >

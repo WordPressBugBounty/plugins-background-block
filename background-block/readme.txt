@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/pluginenvision
 Tags: block, section customization, parallax section backgrounds, color gradient or image background, background effects
 Requires at least: 6.5+
 Tested up to: 6.9
-Stable tag: 0.18
+Stable tag: 0.19
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -23,11 +23,11 @@ Take your WordPress design to the next level with stunning color gradient or ima
 
 Start building visually appealing sections today with the Section Background Block.
 
-**🌟 Unlock More Flexibility! Use the [Blocks to ShortCode](https://pluginenvision.com/plugins/blocks-to-shortcode/) plugin to **convert any blocks into shortcodes** and embed them anywhere! 🚀**
+**🌟 Unlock More Flexibility! Use the [Blocks to Shortcode](https://pluginenvision.com/plugins/blocks-to-shortcode/) plugin to **convert any blocks into shortcodes** and embed them anywhere! 🚀**
 
 
 ### Section Builder with Backgrounds Features
-👉 **Background**: Select from various background types – solid color, gradient, or image – to customize your WordPress sections.
+👉 **Background**: Choose from various background types – solid color, gradient, or image – to customize your WordPress sections.
 
 👉 **Parallax Effects**: Create captivating depth with parallax backgrounds.
 
@@ -92,6 +92,10 @@ At the moment, there is no premium version available.
 
 
 == Changelog ==
+
+= 0.19 - 14th April 26 =
+* **New:** Admin Dashboard providing a centralized interface.
+* **Fix:** Data sanitization and input validation to address security vulnerabilities.
 
 = 0.18 - 8th August 25 =
 * Fix issues.
