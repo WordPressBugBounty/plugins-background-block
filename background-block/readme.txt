@@ -3,7 +3,7 @@ Contributors: pluginenvision
 Donate link: https://www.buymeacoffee.com/pluginenvision
 Tags: block, section customization, parallax section backgrounds, color gradient or image background, background effects
 Requires at least: 6.5+
-Tested up to: 6.9
+Tested up to: 7.0
 Stable tag: 0.19
 Requires PHP: 7.2
 License: GPLv3 or later
